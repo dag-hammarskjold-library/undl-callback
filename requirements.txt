@@ -1,6 +1,7 @@
 boto3==1.16.5
 botocore==1.19.5
 click==7.1.2
+dlx @ git+https://github.com/dag-hammarskjold-library/dlx@b4f554c454449f23850941af53debd605fc033b6
 Flask==1.1.2
 itsdangerous==1.1.0
 Jinja2==2.11.2
