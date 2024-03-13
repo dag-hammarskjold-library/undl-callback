@@ -4,7 +4,7 @@
         "aws_region": "us-east-1",
         "profile_name": "default",
         "project_name": "undl-callback",
-        "runtime": "python3.7",
+        "runtime": "python3.9",
         "s3_bucket": "zappa-k2741ja3z"
     }
 }
