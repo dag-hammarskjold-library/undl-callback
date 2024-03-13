@@ -14,7 +14,7 @@ else:
     nonce_key = ssm_client.get_parameter(Name='undl-callback-nonce')['Parameter']['Value']
     db_connect = ssm_client.get_parameter(Name='prodISSU-admin-connect-string')['Parameter']['Value']
 
-DB.connect(db_connect)
+DB.connect(db_connect, database="undlFiles")
 
 @app.route('/', methods=['GET','POST'])
 def index():
